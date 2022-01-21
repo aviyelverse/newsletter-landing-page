@@ -5,10 +5,8 @@ import Header from "./Header";
 const Signup = () => {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
-      {/*  Site header */}
       <Header />
 
-      {/*  Page content */}
       <main className="flex-grow">
         <section className="bg-gradient-to-b from-gray-100 to-white">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
