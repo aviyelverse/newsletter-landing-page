@@ -1,7 +1,7 @@
 import React from "react";
-import Timelinecomp from "./components/Timeline";
+import Signup from "./components/Signup";
 function App() {
-  return <Timelinecomp />;
+  return <Signup />;
 }
 
 export default App;
