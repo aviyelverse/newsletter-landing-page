@@ -1,1 +1,1 @@
-## Newsletter Landing page of all our previously publis
+## Newsletter Archives for all of our previously published ones.
