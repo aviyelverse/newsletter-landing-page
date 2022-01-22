@@ -30,10 +30,7 @@ const NewsletterIssues = () => {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Newsletter Archives</h1>
             <p className="text-xl text-gray-600">
-              Aviyel is a community platform that helps open source project
-              communities to monetize and sustain themselves in the long run.
-              Aviyel is commited to get open source projects traction from
-              developers around the world to adopt and maintain them.
+              Archives of all of our previously published Newsletters.
             </p>
           </div>
 
@@ -43,7 +40,7 @@ const NewsletterIssues = () => {
               data-aos="fade-right"
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">All our Newsletter Issues</h3>
+                <h3 className="h3 mb-3">All of our released #Issues</h3>
                 <p className="text-xl text-gray-600"></p>
               </div>
               <div className="mb-8 md:mb-0">

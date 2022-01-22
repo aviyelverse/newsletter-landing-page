@@ -29,7 +29,10 @@ function HerSection() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Archives of all of our previously published Newsletters.
+                Aviyel is a community platform that helps open source project
+                communities to monetize and sustain themselves in the long run.
+                Aviyel is commited to get open source projects traction from
+                developers around the world to adopt and maintain them.
               </p>
 
               <div
