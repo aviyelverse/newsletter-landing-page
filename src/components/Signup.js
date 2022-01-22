@@ -11,12 +11,10 @@ const Signup = () => {
         <section className="bg-gradient-to-b bg-purple-100">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-              {/* Page header */}
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
                 <h1 className="h1">Subscribe to our Newsletter!</h1>
               </div>
 
-              {/* Form */}
               <div className="max-w-sm mx-auto">
                 <form>
                   <div className="flex flex-wrap -mx-3 mb-4">
