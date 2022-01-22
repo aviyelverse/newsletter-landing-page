@@ -146,13 +146,19 @@ const NewsletterIssues = () => {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img
-                      className="md:max-w-none mx-auto rounded transform animate-float"
-                      src={require("../assets/images/issue1.png")}
-                      width="500"
-                      height="462"
-                      alt="Issues"
-                    />
+                    <a
+                      href="https://aviyelverse.github.io/newsletter/november-22nd-2021/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        className="md:max-w-none mx-auto rounded transform animate-float"
+                        src={require("../assets/images/issue1.png")}
+                        width="500"
+                        height="462"
+                        alt="Issues"
+                      />
+                    </a>
                   </div>
                 </SwiftAnimate>
                 {/* Issues  2 */}
@@ -168,13 +174,19 @@ const NewsletterIssues = () => {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img
-                      className="md:max-w-none mx-auto rounded transform animate-float"
-                      src={require("../assets/images/issue2.png")}
-                      width="500"
-                      height="462"
-                      alt="Issues"
-                    />
+                    <a
+                      href="https://aviyelverse.github.io/newsletter/december-22nd-2021/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        className="md:max-w-none mx-auto rounded transform animate-float"
+                        src={require("../assets/images/issue2.png")}
+                        width="500"
+                        height="462"
+                        alt="Issues"
+                      />
+                    </a>
                   </div>
                 </SwiftAnimate>
                 {/* Issues  3 */}
@@ -190,13 +202,19 @@ const NewsletterIssues = () => {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img
-                      className="md:max-w-none mx-auto rounded transform animate-float"
-                      src={require("../assets/images/issue3.png")}
-                      width="500"
-                      height="462"
-                      alt="Issues"
-                    />
+                    <a
+                      href="https://aviyelverse.github.io/newsletter/january-6th-newsletter/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        className="md:max-w-none mx-auto rounded transform animate-float"
+                        src={require("../assets/images/issue3.png")}
+                        width="500"
+                        height="462"
+                        alt="Issues"
+                      />
+                    </a>
                   </div>
                 </SwiftAnimate>
                 {/* Issues  4 */}
@@ -212,13 +230,20 @@ const NewsletterIssues = () => {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img
-                      className="md:max-w-none mx-auto rounded transform animate-float"
-                      src={require("../assets/images/issue4.png")}
-                      width="500"
-                      height="462"
-                      alt="Issues"
-                    />
+                    <a
+                      href="https://aviyelverse.github.io/newsletter/november-22nd-2021/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        href="#"
+                        className="md:max-w-none mx-auto rounded transform animate-float"
+                        src={require("../assets/images/issue4.png")}
+                        width="500"
+                        height="462"
+                        alt="Issues"
+                      />
+                    </a>
                   </div>
                 </SwiftAnimate>
               </div>
