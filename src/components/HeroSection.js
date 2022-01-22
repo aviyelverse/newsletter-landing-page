@@ -44,7 +44,7 @@ function HerSection() {
               data-aos="zoom-y-out"
             >
               Aviyel{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-purple-500">
                 Newsletter
               </span>
             </h1>
@@ -63,7 +63,7 @@ function HerSection() {
               >
                 <div>
                   <a
-                    className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                    className="btn text-white bg-purple-300 hover:bg-purple-600 w-full mb-4 sm:w-auto sm:mb-0"
                     href="#0"
                   >
                     Sign up for the newsletter now !
@@ -83,10 +83,7 @@ function HerSection() {
               <div className="flex flex-col justify-center">
                 <img
                   className="mx-auto"
-                  src={
-                    require("https://user-images.githubusercontent.com/37651620/148015361-512f2ce9-e7fa-4897-92c8-8cde98e6be72.png")
-                      .default
-                  }
+                  src={require("../assets/images/Hero.png").default}
                   width="768"
                   height="432"
                   alt="Hero"
@@ -168,7 +165,7 @@ function HerSection() {
                 aria-controls="modal"
               >
                 <svg
-                  className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 flex-shrink-0"
+                  className="w-6 h-6 fill-current text-gray-400 group-hover:text-purple-600 flex-shrink-0"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
