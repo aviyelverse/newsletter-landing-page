@@ -50,7 +50,7 @@ const Header = () => {
                   to="/signup"
                   className="btn-sm text-white bg-purple-300 hover:bg-purple-600 ml-3"
                 >
-                  <span>Sign up for Newsletter</span>
+                  <span>Subscribe to our Newsletter</span>
                   <svg
                     className="w-3 h-3 fill-current text-purple-600 flex-shrink-0 ml-2 -mr-1"
                     viewBox="0 0 12 12"

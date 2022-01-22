@@ -18,9 +18,8 @@ function HerSection() {
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              Aviyel{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-purple-500">
-                Newsletter
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-purple-600">
+                Aviyel Newsletter
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">

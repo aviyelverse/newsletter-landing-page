@@ -20,7 +20,7 @@ const NewsletterIssues = () => {
   return (
     <section className="relative">
       <div
-        className="absolute inset-0 bg-purple-200 pointer-events-none mb-16"
+        className="absolute inset-0 bg-purple-200 pointer-events-none pb-26"
         aria-hidden="true"
       ></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-100 transform -translate-y-1/2"></div>

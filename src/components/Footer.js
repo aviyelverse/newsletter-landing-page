@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 ">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-10">
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">
               Sign-up for the Newsletter!{" "}
