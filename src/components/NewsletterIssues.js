@@ -60,7 +60,9 @@ const NewsletterIssues = () => {
                     <div className="font-bold leading-snug tracking-tight mb-1">
                       Newsletter issue #1
                     </div>
-                    <div className="text-gray-600">Newsletter</div>
+                    <div className="text-gray-100">
+                      Released Date: November 22nd 2021
+                    </div>
                   </div>
                 </a>
                 <a
@@ -79,7 +81,9 @@ const NewsletterIssues = () => {
                     <div className="font-bold leading-snug tracking-tight mb-1">
                       Newsletter issue #2
                     </div>
-                    <div className="text-gray-600">Newsletter</div>
+                    <div className="text-gray-100">
+                      Released Date: December 22nd 2021
+                    </div>
                   </div>
                 </a>
                 <a
@@ -98,7 +102,10 @@ const NewsletterIssues = () => {
                     <div className="font-bold leading-snug tracking-tight mb-1">
                       Newsletter issue #3
                     </div>
-                    <div className="text-gray-600">Newsletter</div>
+                    <div className="text-gray-100">
+                      {" "}
+                      Released Date: January 10th 2021
+                    </div>
                   </div>
                 </a>
                 <a
@@ -117,7 +124,12 @@ const NewsletterIssues = () => {
                     <div className="font-bold leading-snug tracking-tight mb-1">
                       Newsletter issue #4
                     </div>
-                    <div className="text-gray-600">Newsletter.</div>
+                    <div className="text-gray-100">
+                      Release Date: January 25th 2021.
+                    </div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-yellow-500 rounded-full shadow flex-shrink-0 ml-3">
+                    <p>⭐</p>
                   </div>
                 </a>
               </div>

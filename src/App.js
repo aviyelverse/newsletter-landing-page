@@ -6,6 +6,7 @@ import "./assets/css/styles.scss";
 // components
 import Home from "./components/Home";
 import SignUp from "./components/Signup";
+import Archives from "./components/Archives";
 
 function App() {
   const location = useLocation();
@@ -34,6 +35,9 @@ function App() {
         </Route>
         <Route path="/signup">
           <SignUp />
+        </Route>
+        <Route path="/archives">
+          <Archives />
         </Route>
       </Switch>
     </>
