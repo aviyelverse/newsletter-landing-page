@@ -50,8 +50,8 @@ const NewsletterIssues = () => {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 1
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? "bg-white shadow-md border-purple-200 hover:shadow-lg"
+                      : "bg-purple-500 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -69,8 +69,8 @@ const NewsletterIssues = () => {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 2
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? "bg-white shadow-md border-purple-200 hover:shadow-lg"
+                      : "bg-purple-500 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -80,7 +80,7 @@ const NewsletterIssues = () => {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Newsletter issue #1
+                      Newsletter issue #2
                     </div>
                     <div className="text-gray-600">Newsletter</div>
                   </div>
@@ -88,8 +88,8 @@ const NewsletterIssues = () => {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 3
-                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
-                      : "bg-gray-200 border-transparent"
+                      ? "bg-white shadow-md border-purple-200 hover:shadow-lg"
+                      : "bg-purple-500 border-transparent"
                   }`}
                   href="#0"
                   onClick={(e) => {
@@ -99,7 +99,26 @@ const NewsletterIssues = () => {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Newsletter issue #1
+                      Newsletter issue #3
+                    </div>
+                    <div className="text-gray-600">Newsletter</div>
+                  </div>
+                </a>
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+                    tab !== 4
+                      ? "bg-white shadow-md border-purple-200 hover:shadow-lg"
+                      : "bg-purple-500 border-transparent"
+                  }`}
+                  href="#0"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setTab(4);
+                  }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">
+                      Newsletter issue #4
                     </div>
                     <div className="text-gray-600">Newsletter.</div>
                   </div>
@@ -114,7 +133,7 @@ const NewsletterIssues = () => {
               ref={tabs}
             >
               <div className="relative flex flex-col text-center lg:text-right">
-                {/* Item 1 */}
+                {/* Issues  1 */}
                 <SwiftAnimate
                   show={tab === 1}
                   appear={true}
@@ -128,23 +147,15 @@ const NewsletterIssues = () => {
                 >
                   <div className="relative inline-flex flex-col">
                     <img
-                      className="md:max-w-none mx-auto rounded"
-                      src={require("../assets/images/issue4.png")}
+                      className="md:max-w-none mx-auto rounded transform animate-float"
+                      src={require("../assets/images/issue1.png")}
                       width="500"
                       height="462"
                       alt="Issues"
                     />
-                    <img
-                      className="md:max-w-none absolute w-full left-0 transform animate-float"
-                      src={require("../assets/images/Hero.png")}
-                      width="500"
-                      height="44"
-                      alt="Issues"
-                      style={{ top: "10%" }}
-                    />
                   </div>
                 </SwiftAnimate>
-                {/* Item 2 */}
+                {/* Issues  2 */}
                 <SwiftAnimate
                   show={tab === 2}
                   appear={true}
@@ -158,23 +169,15 @@ const NewsletterIssues = () => {
                 >
                   <div className="relative inline-flex flex-col">
                     <img
-                      className="md:max-w-none mx-auto rounded"
-                      src={require("https://user-images.githubusercontent.com/37651620/147326755-8eee40c5-7b9c-4c1d-9d87-75b3e549158e.png")}
+                      className="md:max-w-none mx-auto rounded transform animate-float"
+                      src={require("../assets/images/issue2.png")}
                       width="500"
                       height="462"
                       alt="Issues"
                     />
-                    <img
-                      className="md:max-w-none absolute w-full left-0 transform animate-float"
-                      src={require("https://user-images.githubusercontent.com/37651620/147326755-8eee40c5-7b9c-4c1d-9d87-75b3e549158e.png")}
-                      width="500"
-                      height="44"
-                      alt="Issues"
-                      style={{ top: "30%" }}
-                    />
                   </div>
                 </SwiftAnimate>
-                {/* Item 3 */}
+                {/* Issues  3 */}
                 <SwiftAnimate
                   show={tab === 3}
                   appear={true}
@@ -188,19 +191,33 @@ const NewsletterIssues = () => {
                 >
                   <div className="relative inline-flex flex-col">
                     <img
-                      className="md:max-w-none mx-auto rounded"
-                      src={require("https://user-images.githubusercontent.com/37651620/147326755-8eee40c5-7b9c-4c1d-9d87-75b3e549158e.png")}
+                      className="md:max-w-none mx-auto rounded transform animate-float"
+                      src={require("../assets/images/issue3.png")}
                       width="500"
                       height="462"
                       alt="Issues"
                     />
+                  </div>
+                </SwiftAnimate>
+                {/* Issues  4 */}
+                <SwiftAnimate
+                  show={tab === 4}
+                  appear={true}
+                  className="w-full"
+                  enter="transition ease-in-out duration-700 transform order-first"
+                  enterStart="opacity-0 translate-y-16"
+                  enterEnd="opacity-100 translate-y-0"
+                  leave="transition ease-in-out duration-300 transform absolute"
+                  leaveStart="opacity-100 translate-y-0"
+                  leaveEnd="opacity-0 -translate-y-16"
+                >
+                  <div className="relative inline-flex flex-col">
                     <img
-                      className="md:max-w-none absolute w-full left-0 transform animate-float"
-                      src={require("https://user-images.githubusercontent.com/37651620/147326755-8eee40c5-7b9c-4c1d-9d87-75b3e549158e.png")}
+                      className="md:max-w-none mx-auto rounded transform animate-float"
+                      src={require("../assets/images/issue4.png")}
                       width="500"
-                      height="44"
+                      height="462"
                       alt="Issues"
-                      style={{ top: "30%" }}
                     />
                   </div>
                 </SwiftAnimate>
