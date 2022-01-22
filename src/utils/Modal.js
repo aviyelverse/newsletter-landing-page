@@ -26,7 +26,7 @@ function Modal({ children, id, ariaLabel, show, handleClose }) {
 
   return (
     <>
-      <Transition
+      <SwiftAnimate
         className="fixed inset-0 z-50 bg-white bg-opacity-75 transition-opacity blur"
         show={show}
         enter="transition ease-out duration-200"
