@@ -20,7 +20,7 @@ const NewsletterIssues = () => {
   return (
     <section className="relative">
       <div
-        className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
+        className="absolute inset-0 bg-purple-200 pointer-events-none mb-16"
         aria-hidden="true"
       ></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-100 transform -translate-y-1/2"></div>
@@ -129,18 +129,18 @@ const NewsletterIssues = () => {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="md:max-w-none mx-auto rounded"
-                      src={require("https://user-images.githubusercontent.com/37651620/147326755-8eee40c5-7b9c-4c1d-9d87-75b3e549158e.png")}
+                      src={require("../assets/images/issue4.png")}
                       width="500"
                       height="462"
                       alt="Issues"
                     />
                     <img
                       className="md:max-w-none absolute w-full left-0 transform animate-float"
-                      src={require("https://user-images.githubusercontent.com/37651620/147326755-8eee40c5-7b9c-4c1d-9d87-75b3e549158e.png")}
+                      src={require("../assets/images/Hero.png")}
                       width="500"
                       height="44"
                       alt="Issues"
-                      style={{ top: "30%" }}
+                      style={{ top: "10%" }}
                     />
                   </div>
                 </SwiftAnimate>
