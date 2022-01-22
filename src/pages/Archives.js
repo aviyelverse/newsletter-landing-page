@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "../components/Header";
 
 function Archives() {
   return (
@@ -27,7 +27,7 @@ function Archives() {
                 {/* 1st issues */}
                 <div className="relative flex flex-col items-center p-6 bg-white rounded-xl shadow-xl">
                   <a
-                    href="https://aviyelverse.github.io/newsletter/november-22nd"
+                    href="https://aviyelverse.github.io/newsletter/november-22nd-2021/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

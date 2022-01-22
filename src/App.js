@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import { Switch, Route, useLocation } from "react-router-dom";
 import AOS from "aos";
-import { focusHandling } from "cruip-js-toolkit";
 import "./assets/css/styles.scss";
-// components
-import Home from "./components/Home";
-import SignUp from "./components/Signup";
-import Archives from "./components/Archives";
+// Pages
+import Home from "./pages/Home";
+import SignUp from "./pages/Signup";
+import Archives from "./pages/Archives";
 
 function App() {
   const location = useLocation();
@@ -23,9 +22,7 @@ function App() {
   useEffect(() => {
     document.querySelector("html").style.scrollBehavior = "auto";
     window.scroll({ top: 0 });
-    document.querySelector("html").style.scrollBehavior = "";
-    focusHandling("outline");
-  }, [location.pathname]); // triggered on route change
+  }, [location.pathname]);
 
   return (
     <>
