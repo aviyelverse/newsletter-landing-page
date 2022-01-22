@@ -48,7 +48,7 @@ const Header = () => {
               <li>
                 <Link
                   to="/signup"
-                  className="btn-sm text-white bg-purple-300 hover:bg-purple-600 ml-3"
+                  className="btn-sm text-white bg-purple-300 hover:bg-purple-600 ml-3  rounded-full"
                 >
                   <span>Subscribe to our Newsletter</span>
                   <svg
