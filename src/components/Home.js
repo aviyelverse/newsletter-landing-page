@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import HeroSection from "./HeroSection";
+import NewsletterIssues from "./NewsletterIssues";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Header />
       <main className="flex-grow">
         <HeroSection />
+        <NewsletterIssues />
       </main>
     </div>
   );
