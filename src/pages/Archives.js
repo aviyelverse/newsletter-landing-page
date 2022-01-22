@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function Archives() {
   return (
@@ -93,6 +94,7 @@ function Archives() {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
