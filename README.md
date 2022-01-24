@@ -1,7 +1,15 @@
 ## Newsletter Archives for all of our previously published ones.
 
+## Version 1.0
+
 <h2 align="center">
 <a href="https://aviyel-newsletter.netlify.app/">https://aviyel-newsletter.netlify.app/</a>
+</h2>
+
+## Version 2.0
+
+<h2 align="center">
+<a href="https://aviyelverse.github.io/newsletter-landing-page/">https://aviyelverse.github.io/newsletter-landing-page/</a>
 </h2>
 
 # Home
