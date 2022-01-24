@@ -23,7 +23,6 @@ const NewsletterIssues = () => {
         className="absolute inset-0 bg-purple-200 pointer-events-none pb-26"
         aria-hidden="true"
       ></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-100 transform -translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
