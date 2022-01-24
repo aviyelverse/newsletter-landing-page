@@ -21,7 +21,7 @@ Version 1.0
 ![Signup](https://user-images.githubusercontent.com/37651620/150638528-0c41acad-51d7-4ba0-b138-0922a29af255.png)
 
 <h1 align="center">
-Version 2.0
+Version 2.0 (<a href="https://github.com/aviyelverse/newsletter-landing-page/tree/version-2">Source</a>)
 </h1>
 
 <h2 align="center">
