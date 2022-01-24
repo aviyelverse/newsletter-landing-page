@@ -26,7 +26,7 @@
   --bs-danger: #dc3545;
   --bs-light: #fff;
   --bs-dark: #1c1e2e;
-  --bs-font-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
