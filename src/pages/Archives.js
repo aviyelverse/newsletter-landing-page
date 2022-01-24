@@ -52,7 +52,7 @@ function Archives() {
                       Newsletter Issue #2
                     </h4>
                     <p className="text-gray-600 text-center">
-                      Released Date:December 22nd 2021
+                      Released Date:December 23rd 2021
                     </p>
                   </a>
                 </div>

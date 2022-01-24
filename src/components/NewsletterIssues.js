@@ -82,7 +82,7 @@ const NewsletterIssues = () => {
                       Newsletter issue #2
                     </div>
                     <div className="text-gray-100">
-                      Released Date: December 22nd 2021
+                      Released Date: December 23rd 2021
                     </div>
                   </div>
                 </a>
